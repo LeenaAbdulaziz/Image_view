@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun img1(view: View) {
-LA.setBackgroundResource(R.drawable.day)
+imageView.setBackgroundResource(R.drawable.day)
     }
     fun img2(view: View) {
-        LA.setBackgroundResource(R.drawable.night)
+        imageView.setBackgroundResource(R.drawable.night)
 
     }
 }
